@@ -8,3 +8,8 @@ spring:
       server:
         git:
           uri: $SPRING_CLOUD_CONFIG_SERVER_GIT_URI
+      discovery:
+        enabled: true
+        
+         
+        

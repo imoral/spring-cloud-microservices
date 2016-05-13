@@ -1,6 +1,2 @@
-spring:
-  application:
-    name: clientservice
-    
 message:
   welcome: Hello World
