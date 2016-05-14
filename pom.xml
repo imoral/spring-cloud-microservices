@@ -71,6 +71,10 @@
 							<include>${project.build.finalName}.jar</include>
 						</resource>
 					</resources>
+					<forceTags>true</forceTags>
+					<imageTags>
+			           <imageTag>${project.artifactId}</imageTag>
+			        </imageTags>
 				</configuration>
 			</plugin>
 		</plugins>
